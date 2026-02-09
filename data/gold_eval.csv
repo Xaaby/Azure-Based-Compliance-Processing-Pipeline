@@ -1,0 +1,9 @@
+document_id,chunk_index,expected_label,expected_control_id
+SAMPLE_DOC_1,0,Access Control,AC-2
+SAMPLE_DOC_1,1,Logging & Monitoring,LM-1
+SAMPLE_DOC_1,2,Data Retention,DR-1
+SAMPLE_DOC_1,3,Incident Response,IR-2
+SAMPLE_DOC_1,4,Encryption,EN-1
+SAMPLE_DOC_1,5,Vendor Risk,VR-1
+SAMPLE_DOC_1,6,General,GE-1
+

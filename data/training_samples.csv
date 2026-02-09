@@ -1,0 +1,23 @@
+text,label
+"Users must authenticate with unique credentials before accessing the system.",Access Control
+"Administrative access is restricted to authorized support engineers.",Access Control
+"All access requests must be approved by a manager.",Access Control
+"Security events such as failed logins must be logged.",Logging & Monitoring
+"Logs are collected centrally and monitored for anomalies.",Logging & Monitoring
+"Application logs must be retained for at least one year.",Logging & Monitoring
+"Customer records are stored for seven years.",Data Retention
+"Backups are retained according to the data retention policy.",Data Retention
+"Data that exceeds its retention period must be securely deleted.",Data Retention
+"Incidents must be reported to the incident response team within 24 hours.",Incident Response
+"The organization maintains an incident response plan.",Incident Response
+"A post-incident review must be documented.",Incident Response
+"Data at rest must be encrypted using AES-256.",Encryption
+"All external connections must use TLS.",Encryption
+"Encryption keys must be rotated periodically.",Encryption
+"Third-party vendors must complete a security questionnaire.",Vendor Risk
+"Vendor contracts must include security and privacy requirements.",Vendor Risk
+"Critical vendors are reviewed annually for security posture.",Vendor Risk
+"This policy applies to all employees and contractors.",General
+"All staff must complete annual security awareness training.",General
+"Security policies are reviewed and approved by management.",General
+

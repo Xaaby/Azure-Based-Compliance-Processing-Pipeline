@@ -1,0 +1,32 @@
+id,title,category,text
+AC-1,User Account Provisioning,Access Control,User accounts must be provisioned through an approved access request process with management approval.
+AC-2,Strong Authentication,Access Control,Users must authenticate with unique credentials and strong passwords rotated at least every 90 days.
+AC-3,Role-Based Access,Access Control,Access to production systems must be granted using role-based access control aligned to job responsibilities.
+LM-1,Security Event Logging,Logging & Monitoring,Security-relevant events such as authentication failures and privilege changes must be logged.
+LM-2,Log Retention,Logging & Monitoring,Application and infrastructure logs must be retained for at least 365 days.
+LM-3,Log Review,Logging & Monitoring,Security logs must be reviewed on a weekly basis for anomalous activity.
+DR-1,Data Retention Policy,Data Retention,Customer data must be retained for seven years unless legal or contractual requirements state otherwise.
+DR-2,Backup Retention,Data Retention,Backups must be retained according to the corporate data retention schedule.
+DR-3,Data Disposal,Data Retention,Data past its retention period must be securely deleted or anonymized.
+IR-1,Incident Response Plan,Incident Response,The organization must maintain a documented incident response plan reviewed annually.
+IR-2,Incident Reporting,Incident Response,Suspected security incidents must be reported to the security team within 24 hours.
+IR-3,Post-Incident Review,Incident Response,A post-incident review must be conducted after major incidents to identify lessons learned.
+EN-1,Encryption At Rest,Encryption,Customer data at rest must be encrypted using industry-standard algorithms such as AES-256.
+EN-2,Encryption In Transit,Encryption,All external network communications must be protected using TLS 1.2 or higher.
+EN-3,Cryptographic Key Management,Encryption,Cryptographic keys must be stored securely and rotated on at least an annual basis.
+VR-1,Vendor Risk Assessment,Vendor Risk,Third-party vendors must undergo a risk assessment prior to onboarding.
+VR-2,Vendor Contracts,Vendor Risk,Contracts with vendors must define security responsibilities and data protection requirements.
+VR-3,Vendor Monitoring,Vendor Risk,Key vendors must be reviewed at least annually for changes in security posture.
+GE-1,Policy Scope,General,This policy applies to all employees contractors and third parties with access to company systems.
+GE-2,Training,General,All personnel must complete security awareness training at least annually.
+GE-3,Governance,General,Security policies must be reviewed and approved by senior management annually.
+AC-4,Privileged Access,Access Control,Administrative access must be limited to authorized personnel and monitored.
+AC-5,Session Timeout,Access Control,User sessions must time out after a period of inactivity.
+LM-4,Alerting,Logging & Monitoring,Automated alerts must be generated for high-risk security events.
+DR-4,Legal Hold,Data Retention,Data subject to legal hold must not be deleted until the hold is released.
+IR-4,Tabletop Exercises,Incident Response,Incident response tabletop exercises must be performed at least annually.
+EN-4,Mobile Encryption,Encryption,Company laptops and mobile devices must use full-disk encryption.
+VR-4,Offboarding Vendors,Vendor Risk,Access for terminated vendors must be revoked within 24 hours.
+GE-4,Exception Management,General,Security exceptions must be formally documented approved and periodically reviewed.
+GE-5,Continuous Improvement,General,The security program must include continuous improvement activities based on risk and lessons learned.
+

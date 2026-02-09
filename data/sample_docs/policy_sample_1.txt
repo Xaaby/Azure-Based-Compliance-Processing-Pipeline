@@ -1,0 +1,14 @@
+All users must authenticate with unique credentials before accessing the production environment.
+
+Security-relevant events, including failed logins and privilege changes, must be logged and monitored.
+
+Customer data is retained for seven years unless legal or contractual obligations require a longer period.
+
+Suspected security incidents must be reported to the security team within 24 hours.
+
+Customer data at rest must be encrypted using industry-standard algorithms such as AES-256.
+
+Third-party vendors must undergo a security review before onboarding.
+
+This policy applies to all employees, contractors, and third parties with access to company systems.
+
